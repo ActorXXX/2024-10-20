@@ -61,7 +61,11 @@ article {
     flex-direction: column;
     justify-content: space-between;
     gap: 1em;
+    transition: background-color .15s linear;
+}
 
+article:hover {
+    background-color: hsl(217,24%,22%);
 }
 
 .title {
